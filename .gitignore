@@ -20,3 +20,24 @@ data.json
 
 # Exclude macOS Finder (System Explorer) View States
 .DS_Store
+
+pkg/
+tmp/
+doc/
+.DS_Store
+Gemfile.lock
+
+*.bak
+*.~
+*.log
+log/
+logs/
+
+rsyntaxtree/bin/rsync_code
+rsyntaxtree/bin/linktree.rb
+tags
+.tags
+.rubocop.yml
+.rubocop_todo.yml
+.solargraph.yml
+
